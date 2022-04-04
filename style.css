@@ -1,0 +1,90 @@
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  background-color: grey;
+}
+
+input,
+button {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+  outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.container {
+  background-color: #ffffff;
+  max-width: 476px;
+  width: 100%;
+  margin: 100px auto 0;
+  padding: 12px 8px;
+}
+
+.form-block {
+  width: 460px;
+  height: 45px;
+  border: 1px solid #989898;
+  box-sizing: border-box;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.input-add {
+  height: 45px;
+  width: 400px;
+  font-size: 18px;
+}
+
+.btn-get:hover {
+  filter: invert(53%) sepia(87%) saturate(1699%) hue-rotate(81deg)
+    brightness(112%) contrast(130%);
+  cursor: pointer;
+}
+
+.gender-box {
+  width: 460px;
+  margin-top: 8px;
+  border: 1px solid #989898;
+  box-sizing: border-box;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 12px;
+  background-color: #ffffff;
+}
+
+.gender {
+  padding: 0 18px 0 12px;
+  width: 400px;
+}
